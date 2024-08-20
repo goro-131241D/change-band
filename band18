@@ -1,0 +1,4 @@
+#/usr/bin/env sh
+source .venv/bin/activate
+python change-band.py yourname password router_ip --down-band3
+#example: python change-band.py takeshi pancake014 192.168.0.1 --down-band3
